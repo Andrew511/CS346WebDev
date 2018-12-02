@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Individual Project</title>
+    <link rel="stylesheet" type="text/css" href="indivProg.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Titan Clicker</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Questions.html">Quiz Questions</a></li>
+            <li><a href="Review.html">Review Questions</a></li>
+            <li><a href="Log_in.html">Log out</a></li>
+            <li>Instructor only links</li>
+            <li><a href="Question_Manager_add.html">Question Manager</a></li>
+            <li><a href="Student_Accounts.html">Student Accounts</a></li>
+            <li><a href="Log_in.html">Log out</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <div class="tab">
+            <a href="Question_Manager_activate.html" class="button">Activate Questions</a> 
+            <a href="Question_Manager_add.html" class="button">Add Questions</a>
+        </div>
+
+        <div id="activate">
+          <table>
+            <tr>
+              <td>Question1</td> <td> <a href="">Activate</a></td> 
+            </tr>  
+            <tr>
+              <td>Question1</td> <td> <a href="">Activate</a></td> 
+            </tr> 
+            <tr>
+              <td>Question1</td> <td> <a href="">Activate</a></td> 
+            </tr> 
+            <tr>
+              <td>Question1</td> <td> <a href="">Activate</a></td> 
+            </tr>
+          </table>
+        </div>
+        
+        <div id="add" class="hidden">
+          <form>
+            <label for="textbox">Question Text: </label>
+            <input type="text" name="questiontext" id="textbox" required>
+            <br />
+            <input type="radio" id="Questiontype1" name="questiontype" value="checkbox" required>
+            <label for="Questiontype1">Checkbox</label>
+            <br />
+            <input type="radio" id="Questiontype2" name="questiontype" value="Radio" required>
+            <label for="Questiontype2">Radio Button</label>
+            <br />
+            <input type="radio" id="Questiontype3" name="questiontype" value="shortAnswer" required>
+            <label for="Questiontype3">Short Answer</label>
+            <br />
+            The following repeats if not short answer, allowing for multiple answers <br />
+            <label for="text">Answer Text: </label>
+            <input type="text" name="answer" id="text" required>
+            <label for="isCorrect1">Is this a Correct Answer? </label>
+            <input type="checkbox" name="isCorrect" id="isCorrect1" required>
+            <br />
+            <input type="submit">
+          </form>
+        </div>
+
+    </div>
+  </body>
+</html>

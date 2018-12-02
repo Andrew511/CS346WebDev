@@ -1,0 +1,44 @@
+body {
+  background-color: #086788;
+}
+
+h1, div {
+  color: white;
+  text-align: center;
+}
+
+#N {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+#board {
+  position: relative;   /* width and height are set in the JS code */
+  margin: auto;
+  background-color: #cccccc;
+  border: 10px solid black;
+}
+
+.tile {
+  position: absolute;  /* width and height are set in the JS code */
+  line-height: 2;   /* font-size is set in JS code */
+  border: 1px solid black;
+  color: orange;
+  background: linear-gradient(to bottom right, red, #880000);
+}
+
+button {
+  font-size: 150%;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  outline: none;
+}
+
+button:active {
+  background-color: white;
+  color: #086788;
+}
